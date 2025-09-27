@@ -18,7 +18,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_HAS_PRIMARY_LOGO": "true",
   "VITE_HAS_SECONDARY_LOGO": "false",
   "VITE_ENABLED_MENUS": "Trading,Portfolio,Markets,Leaderboard,Rewards,Vaults",
-  "VITE_CUSTOM_MENUS": "Back Home, https://summon.fun",
+  "VITE_CUSTOM_MENUS": "Back to Home, https://summon.fun",
   "VITE_ENABLE_CAMPAIGNS": "true",
   "VITE_TELEGRAM_URL": "",
   "VITE_DISCORD_URL": "https://discord.com/invite/GH9mgKWhnj",
