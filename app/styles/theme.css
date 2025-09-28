@@ -92,9 +92,32 @@
   --oui-spacing-md: 26.25rem;
   --oui-spacing-lg: 30rem;
   --oui-spacing-xl: 33.75rem;
+
+  /* MENU TEXT TOKENS (new) */
+  --oui-color-nav: 255 255 255;        /* default menu text = white */
+  --oui-color-nav-hover: 255 255 255;  /* hover stays white */
+  --oui-color-nav-active: 255 255 255; /* active/selected = white */
 }
 
-html, body {
-  font-family: 'Open Sans', sans-serif !important;
-  font-size: 16px !important;
+/* Make the menu use those tokens. If your app uses different classes,
+   swap the selector for nav a, .menu a, or [role="navigation"] a  */
+.topnav a,
+nav a,
+.menu a,
+[role="navigation"] a {
+  color: rgb(var(--oui-color-nav));
+  text-decoration: none;
+  font-weight: 600;
+}
+.topnav a:hover,
+nav a:hover,
+.menu a:hover,
+[role="navigation"] a:hover {
+  color: rgb(var(--oui-color-nav-hover));
+}
+.topnav a.active,
+nav a.active,
+.menu a.active,
+[role="navigation"] a.active {
+  color: rgb(var(--oui-color-nav-active));
 }
